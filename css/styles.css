@@ -135,6 +135,8 @@ body {
 .container__wrapper__images {
   display: flex;
   flex-direction: column;
+  overflow: scroll;
+  overflow-x: hidden;
   gap: 1rem;
 }
 
@@ -147,6 +149,24 @@ body {
 .container__wrapper__images__second-content {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.container__wrapper__images__third-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.container__wrapper__images__fourth-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.container__wrapper__images__sixth-content {
+  display: flex;
   justify-content: space-between;
   gap: 1rem;
 }
@@ -189,5 +209,83 @@ body {
   background-position: center;
   background-size: cover;
   width: 11rem;
+  height: 11.5rem;
+}
+
+.container__wrapper__images__content--sixth-image {
+  background-image: url(../img/11.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 17rem;
+  height: 11.5rem;
+}
+
+.container__wrapper__images__content--seventh-image {
+  background-image: url(../img/15.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 17rem;
+  height: 11.5rem;
+}
+
+.container__wrapper__images__content--eighth-image {
+  background-image: url(../img/9.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 17rem;
+  height: 11.5rem;
+}
+
+.container__wrapper__images__content--nineth-image {
+  background-image: url(../img/10.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 17rem;
+  height: 11.5rem;
+}
+
+.container__wrapper__images__content--tenth-image {
+  background-image: url(../img/12.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 17rem;
+  height: 11.5rem;
+}
+
+.container__wrapper__images__content--eleventh-image {
+  background-image: url(../img/16.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 35rem;
+  height: 15rem;
+}
+
+.container__wrapper__images__content--twelveth-image {
+  background-image: url(../img/13.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 17em;
+  height: 24rem;
+}
+
+.container__wrapper__images__content--twelveth-image-wrappered {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container__wrapper__images__content--thirteenth-image {
+  background-image: url(../img/8.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 17rem;
+  height: 11.5rem;
+}
+
+.container__wrapper__images__content--fourteenth-image {
+  background-image: url(../img/17.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 17rem;
   height: 11.5rem;
 }
